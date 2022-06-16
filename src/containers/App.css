@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Complete Plain';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Complete Plain'), url('COMPLETP.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Complete Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Complete Italic'), url('COMPLETI.woff') format('woff');
+}
+h1{
+    font-family: Complete plain;
+    font-weight: 200;
+    color: #3ae9e1;
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin: 1rem;
+}
